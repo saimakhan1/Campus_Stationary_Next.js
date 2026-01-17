@@ -81,7 +81,7 @@ const LoginPage = () => {
         </button>
 
         <p className="text-xs text-gray-500 text-center mt-4">
-          Demo Credentials: admin@campusstore.com / 123456
+          Demo Credentials: admin@campusstore.com (username) / 123456 (password)
         </p>
       </form>
     </div>
