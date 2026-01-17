@@ -2,7 +2,7 @@
 export const dynamic = "force-dynamic";
 import { motion } from "framer-motion";
 
-const About = () => {
+const About1 = () => {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6 text-center">
@@ -63,4 +63,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About1;
