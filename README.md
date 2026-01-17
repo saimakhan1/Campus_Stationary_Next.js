@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Campus Stationery Store Web Application
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+The **Campus Stationery Store** is a web application built with **Next.js 15/16** (App Router) that allows students and staff to browse stationery products online. It includes mock authentication for staff, a public-facing landing page, product listing, product details, and a protected admin dashboard to add new products.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project was created as a simple, realistic, and fast-to-implement full-stack web application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🏠 Landing Page (Public)
+- **Hero Section**: Welcome message and store tagline  
+- **About Store**: Information about the purpose of the stationery store  
+- **Popular Products**: Preview of best-selling items  
+- **Categories**: Pens, notebooks, accessories, etc.  
+- **Why Choose Us**: Affordable prices and campus convenience  
+- **Customer Reviews**: Feedback from students  
+- **Contact Section**: Store contact information  
 
-## Learn More
+✅ No login required  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔐 Authentication (Mock Login)
+- Hardcoded staff credentials:  
+  - **Email:** `admin@campusstore.com`  
+  - **Password:** `123456`  
+- Credentials stored in **cookies**  
+- Protects dashboard routes from unauthorized users  
+- On successful login, staff is redirected to the **All Products page**  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### 📦 Item List Page (Public)
+- Displays all stationery products  
+- Data fetched from an **Express.js API** or `products.json`  
+- Each product card shows:  
+  - Product Name  
+  - Short Description  
+  - Price  
+  - Image  
+- Clicking a product card navigates to the **Product Details page**  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Example Products:**  
+- Ball Pen  
+- Geometry Box  
+- Notebook  
+- Calculator  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### 📄 Item Details Page (Public)
+- Shows complete details of a single product:  
+  - Product Image  
+  - Name  
+  - Description  
+  - Price  
+  - Category  
+- Publicly accessible, no login required  
+
+---
+
+### ➕ Add Item Page (Protected – Admin Only)
+- Staff login required  
+- Form to add new products (Name, Price, Description, Image URL)  
+- Sends data to the Express.js server or JSON file  
+- Unauthorized users are redirected to the login page  
+- Includes **toast notifications** for successful product creation  
+
+---
+
+## 🛠 Technologies Used
+- **Next.js 15/16** (App Router)  
+- **Express.js API / JSON** for product data  
+- **Tailwind CSS** for styling  
+- **React Hooks** for state management  
+- Optional: **React Icons** for UI enhancements  
+
+---
+
+## 🚀 Project Structure
