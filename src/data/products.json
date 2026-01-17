@@ -1,0 +1,130 @@
+[
+  {
+    "id": "1",
+    "name": "Ball Pen",
+    "description": "Smooth writing blue ball pen",
+    "price": 10,
+    "category": "Pen",
+    "image": "/images/products/pen.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Gel Pen",
+    "description": "Black gel pen for smooth writing",
+    "price": 15,
+    "category": "Pen",
+    "image": "/images/products/gel-pen.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Notebook",
+    "description": "200 pages ruled notebook",
+    "price": 120,
+    "category": "Notebook",
+    "image": "/images/products/notebook.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Spiral Notebook",
+    "description": "Spiral binding notebook",
+    "price": 150,
+    "category": "Notebook",
+    "image": "/images/products/spiral-notebook.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Calculator",
+    "description": "Scientific calculator for students",
+    "price": 850,
+    "category": "Electronics",
+    "image": "/images/products/calculator.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Geometry Box",
+    "description": "Complete geometry box set",
+    "price": 180,
+    "category": "Accessories",
+    "image": "/images/products/geometry-box.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Highlighter",
+    "description": "Fluorescent ink highlighter",
+    "price": 35,
+    "category": "Accessories",
+    "image": "/images/products/highlighter.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Stapler",
+    "description": "Mini office stapler",
+    "price": 120,
+    "category": "Accessories",
+    "image": "/images/products/stapler.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Marker Pen",
+    "description": "Permanent marker pen",
+    "price": 40,
+    "category": "Pen",
+    "image": "/images/products/marker.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Eraser",
+    "description": "Soft rubber eraser",
+    "price": 10,
+    "category": "Accessories",
+    "image": "/images/products/eraser.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Pencil",
+    "description": "HB graphite pencil",
+    "price": 8,
+    "category": "Pen",
+    "image": "/images/products/pencil.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Sharpener",
+    "description": "Steel blade sharpener",
+    "price": 12,
+    "category": "Accessories",
+    "image": "/images/products/sharpener.jpg"
+  },
+  {
+    "id": "13",
+    "name": "File Folder",
+    "description": "Plastic document file folder",
+    "price": 60,
+    "category": "Accessories",
+    "image": "/images/products/file.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Correction Pen",
+    "description": "White correction pen",
+    "price": 35,
+    "category": "Accessories",
+    "image": "/images/products/correction-pen.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Sticky Notes",
+    "description": "Colorful sticky notes pack",
+    "price": 50,
+    "category": "Accessories",
+    "image": "/images/products/sticky-notes.jpg"
+  },
+  {
+    "id": "16",
+    "name": "Ruler",
+    "description": "30cm transparent ruler",
+    "price": 20,
+    "category": "Accessories",
+    "image": "/images/products/ruler.jpg"
+  }
+]
