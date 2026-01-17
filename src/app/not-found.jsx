@@ -1,3 +1,4 @@
+"use client";
 export default function NotFound() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
@@ -6,7 +7,7 @@ export default function NotFound() {
         <p className="text-xl text-gray-700 mb-4">
           Page Not Found
         </p>
-        <a href="" className="text-blue-600 font-medium hover:underline"
+        <a href={'/'} className="text-blue-600 font-medium hover:underline"
         >
           Go Back Home
         </a>
