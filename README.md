@@ -124,3 +124,12 @@ Use credentials:
 
 Email: admin@campusstore.com
 Password: 123456
+_____________________________________________________________________
+Live Site Link: https://campus-stationary-next-js.vercel.app/
+
+GitHub Repository Link: https://github.com/saimakhan1/Campus_Stationary_Next.js
+
+Demo Credentials for mock login: 
+username: admin@campusstore.com 
+password: 123456
+_____________________________________________________________________
