@@ -112,7 +112,7 @@ const Navbar = () => {
     setIsLoggedIn(false);
 
     // Redirect to login page
-    router.push("/login");
+    router.push("/");
   };
 
   return (
