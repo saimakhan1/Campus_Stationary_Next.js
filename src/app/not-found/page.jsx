@@ -33,3 +33,21 @@ export default function NotFoundPage() {
     </div>
   );
 }
+"use client";
+
+import { useEffect } from "react";
+
+export const dynamic = "force-dynamic"; // <--- prevents prerender
+
+export default function NotFoundPage() {
+  useEffect(() => {
+    document.title = "404 - Page Not Found";
+  }, []);
+
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+      <h1 className="text-6xl font-bold text-gray-700">404</h1>
+      <p className="text-gray-500 mt-4 text-lg">Page Not Found</p>
+    </div>
+  );
+}
