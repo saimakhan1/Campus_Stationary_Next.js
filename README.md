@@ -81,3 +81,46 @@ This project was created as a simple, realistic, and fast-to-implement full-stac
 ---
 
 ## 🚀 Project Structure
+app/
+├── (public)/ # Public pages with Navbar & Footer
+│ ├── layout.jsx
+│ ├── page.jsx # Home
+│ ├── login/page.jsx
+│ └── products/page.jsx
+└── dashboard/ # Protected admin pages
+├── layout.jsx # Sidebar layout
+├── products/page.jsx # All Products / Items list
+└── add-product/page.jsx # Add new product
+components/ # Reusable UI components
+lib/ # Utility functions (auth, products)
+data/ # products.json
+
+
+---
+
+## ⚡ Usage Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/saimakhan1/Campus_Stationary_Next.js
+cd campus-stationery-store
+
+2. Install dependencies
+npm install
+
+3. Run the development server
+npm run dev
+
+4. Open the application
+
+Open http://localhost:3000
+ in your browser
+
+5. Staff Login
+
+Navigate to /login
+
+Use credentials:
+
+Email: admin@campusstore.com
+Password: 123456
