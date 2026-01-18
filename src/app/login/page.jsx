@@ -77,7 +77,7 @@ const LoginPage = () => {
           onClick={handleMockLogin}
           className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700"
         >
-          Mock Login 
+          Mock Login (Go to Product List Page)
         </button>
 
         <p className="text-xs text-gray-500 text-center mt-4">
